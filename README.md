@@ -13,9 +13,9 @@ Write the kernel in (1) C program and (2) an x86-64 assembly language.  The ker
 ### Correctness Check
 Before doing a comprehensive analysis between the two (2) kernels, C and Assembly, the outputs of both C and Assembly were compared to manual computation of the programmer. A small sample input was used (n = 3) and the randomly generated values were printed out for checking. As seen in Figure 01, both the C and Assembly kernels were able to compute the correct answer.
 
-Vector A = (0.52, 0.64, 0.08)
-Vector B = (0.35, 0.62, 0.20)
-sdot = (0.52 x 0.35) + (0.64 x 0.62) + (0.08 x 0.20)
+- Vector A = (0.52, 0.64, 0.08)
+- Vector B = (0.35, 0.62, 0.20)
+- sdot = (0.52 x 0.35) + (0.64 x 0.62) + (0.08 x 0.20)
      = (0.182) + (0.3968) + (0.016)
      = 0.5948 or 0.59
 
