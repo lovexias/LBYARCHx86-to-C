@@ -1,3 +1,0 @@
-﻿  main.c
-C:\Users\alexia\Downloads\x86-to-C\LBYARCHMachineProject\main.c(30,11): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-  LBYARCHMachineProject.vcxproj -> C:\Users\alexia\Downloads\x86-to-C\LBYARCHMachineProject\x64\Debug\LBYARCHMachineProject.exe
