@@ -10,4 +10,4 @@ Write the kernel in (1) C program and (2) an x86-64 assembly language.  The ker
 - **Process** - $sdot = \sum_{i=1}^{n} a_ib_i = a_1b_1 + a_2b_2 + ... + a_nb_n$
 - **Output** - store the result in memory location _sdot._  Display the result for all versions of the kernel (i.e., C and  x86-64).
 
-- **Sanity Check**
+### Sanity Check
