@@ -82,3 +82,23 @@ As seen in Figures 10 and 11, the Assembly kernel's average execution time is mu
 
 ![29 Execution Time Mean](https://github.com/lovexias/LBYARCHx86-to-C/assets/134917158/23df1acb-ead7-470f-b3ea-5157f1260c64)
 **Figure 11.** Average Execution Time for Vector Size $2^{29}$ Bar Chart
+
+### Code Supplement
+
+![Debug20_30](https://github.com/lovexias/LBYARCHx86-to-C/assets/134917158/e4dfe84b-3120-41ef-ba83-dbea03113c78)
+**Figure 12.** Debug Version $2^{20}$ Sample Output
+
+![Debug24_30](https://github.com/lovexias/LBYARCHx86-to-C/assets/134917158/e3bb7612-6236-4ec5-b3a4-e0b74526d0cf)
+**Figure 13.** Debug Version $2^{24}$ Sample Output
+
+![Debug29_30](https://github.com/lovexias/LBYARCHx86-to-C/assets/134917158/11453bf2-712d-4ba0-9c51-6f166e8a7bb0)
+**Figure 14.** Debug Version $2^{29}$ Sample Output
+
+![Release20_30](https://github.com/lovexias/LBYARCHx86-to-C/assets/134917158/d1db7053-34ba-4e29-b8f9-78864e2fb7cf)
+**Figure 15.** Release Version $2^{20}$ Sample Output
+
+![Release24_30](https://github.com/lovexias/LBYARCHx86-to-C/assets/134917158/2e9d7240-7695-428c-8d3e-23584b8cac74)
+**Figure 16.** Release Version $2^{24}$ Sample Output
+
+![Release29_30](https://github.com/lovexias/LBYARCHx86-to-C/assets/134917158/707b966a-1dd6-4f24-8a81-b1895fc5f370)
+**Figure 17.** Release Version $2^{29}$ Sample Output
