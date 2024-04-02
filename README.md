@@ -14,6 +14,7 @@ Write the kernel in (1) C program and (2) an x86-64 assembly language.  The ker
 The C kernel is written as a function that is within the same file as the `main.c` program. It uses a for loop to iterate the vectors' elements and performs multiplication and addition on the same line. The kernel is 7 lines long.
 
 ![image](https://github.com/lovexias/LBYARCHx86-to-C/assets/134917158/f8bd771a-b4f7-424a-9e43-fc06ddf1cb37)
+
 **Figure 01.** C Kernel
 
 The Assembly kernel is written in a separate `.asm` file entitled `assembly.asm` and is called using the function declaration `extern double dot_product_asm(double* A, double* B, int n);` and function call `sdot = dot_product_asm(A, B, n);` found in line 56 of `main.c`. The Assembly file is 26 lines long and it receives the parameters from C and passes it on to the following registers...
@@ -24,6 +25,7 @@ The Assembly kernel is written in a separate `.asm` file entitled `assembly.asm`
 A, B, and n are the C parameters and they are passed onto the Assembly registers RCX, RDX, and R8 respectively.
 
 ![image](https://github.com/lovexias/LBYARCHx86-to-C/assets/134917158/4525e904-1fad-4a22-9668-6a4912f91a5e)
+
 **Figure 02.** Assembly Kernel
 
 The user is prompted to input an integer for the size/length of vectors A and B. Any number that is below +1 will prompt an error message "Invalid input. Please enter a positive integer." and the user will be prompted to input another integer. malloc was utilized to dynamically allocate memory for arrays (vectors) A and B. This facilitates better handling of larger array sizes which is to be done in this project. The memory will be deallocated at the end of the program. Functions under the `stdlib.h` and `time.h` libraries were utilized to generate random values to be inputted in the vectors and to calculate the execution time of each kernel.
