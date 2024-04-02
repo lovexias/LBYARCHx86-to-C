@@ -43,7 +43,7 @@ Before doing a comprehensive analysis between the two (2) kernels, C and Assembl
 **Figure 03.** Correctness Check
 
 ### Analysis of Data
-For each kernel version, the chosen values for n (vector size) are $2^{20}, 2^{24}, and 2^{29}$. For each version (debug and release mode), each vector size value will be run 30 times to get the average execution time per programming language kernel (C and Assembly).
+For each kernel version, the chosen values for n (vector size) are $2^{20}, 2^{24},$ and $2^{29}$. For each version (debug and release mode), each vector size value will be run 30 times to get the average execution time per programming language kernel (C and Assembly).
 
 #### Debug Version
 
